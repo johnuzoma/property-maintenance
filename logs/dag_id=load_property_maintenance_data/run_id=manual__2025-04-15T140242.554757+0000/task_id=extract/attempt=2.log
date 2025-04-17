@@ -1,0 +1,30 @@
+[2025-04-15T14:05:41.127+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-15T14:05:41.155+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_property_maintenance_data.extract manual__2025-04-15T14:02:42.554757+00:00 [queued]>
+[2025-04-15T14:05:41.170+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_property_maintenance_data.extract manual__2025-04-15T14:02:42.554757+00:00 [queued]>
+[2025-04-15T14:05:41.172+0000] {taskinstance.py:2867} INFO - Starting attempt 2 of 3
+[2025-04-15T14:05:41.520+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2025-04-15 14:02:42.554757+00:00
+[2025-04-15T14:05:41.544+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=228) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-15T14:05:41.546+0000] {standard_task_runner.py:72} INFO - Started process 233 to run task
+[2025-04-15T14:05:41.549+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'load_property_maintenance_data', 'extract', 'manual__2025-04-15T14:02:42.554757+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/load_property_maintenance_data.py', '--cfg-path', '/tmp/tmpje03ipbi']
+[2025-04-15T14:05:41.552+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask extract
+[2025-04-15T14:05:41.682+0000] {task_command.py:467} INFO - Running <TaskInstance: load_property_maintenance_data.extract manual__2025-04-15T14:02:42.554757+00:00 [running]> on host f5f5ba0b9523
+[2025-04-15T14:05:41.899+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='load_property_maintenance_data' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T14:02:42.554757+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-15T14:02:42.554757+00:00'
+[2025-04-15T14:05:41.906+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-15T14:05:41.907+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-15T14:05:41.908+0000] {logging_mixin.py:190} INFO - Current task name:extract state:running start_date:2025-04-15 14:05:41.156537+00:00
+[2025-04-15T14:05:41.910+0000] {logging_mixin.py:190} INFO - Dag name:load_property_maintenance_data and current dag run status:running
+[2025-04-15T14:05:41.911+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-15T14:05:41.943+0000] {base.py:84} INFO - Retrieving connection 'minio_conn'
+[2025-04-15T14:05:42.961+0000] {httpchecksum.py:481} INFO - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+[2025-04-15T14:05:43.557+0000] {python.py:240} INFO - Done. Returned value was: /tmp/prop_data.parquet
+[2025-04-15T14:05:43.617+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-15T14:05:43.619+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=load_property_maintenance_data, task_id=extract, run_id=manual__2025-04-15T14:02:42.554757+00:00, execution_date=20250415T140242, start_date=20250415T140541, end_date=20250415T140543
+[2025-04-15T14:05:43.679+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-04-15T14:05:43.681+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-04-15T14:05:43.682+0000] {logging_mixin.py:190} INFO - Dag name:load_property_maintenance_data queued_at:2025-04-15 14:02:42.617986+00:00
+[2025-04-15T14:05:43.683+0000] {logging_mixin.py:190} INFO - Task hostname:f5f5ba0b9523 operator:_PythonDecoratedOperator
+[2025-04-15T14:05:43.747+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-15T14:05:43.860+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-15T14:05:43.870+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
