@@ -3456,3 +3456,206 @@
 [2025-04-17T16:17:38.907+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:17:38.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-17T16:17:38.968+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:17:38.968+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
 [2025-04-17T16:17:39.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 1.957 seconds
+[2025-04-17T16:18:09.545+0000] {processor.py:186} INFO - Started process (PID=29986) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:09.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:18:09.554+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:09.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:09.940+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:10.031+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:10.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:18:10.072+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:10.071+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:18:10.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.608 seconds
+[2025-04-17T16:18:40.829+0000] {processor.py:186} INFO - Started process (PID=30050) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:40.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:18:40.832+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:40.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:40.974+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:18:41.026+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:41.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:18:41.068+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:18:41.067+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:18:41.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.274 seconds
+[2025-04-17T16:19:11.220+0000] {processor.py:186} INFO - Started process (PID=30113) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:11.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:19:11.227+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:11.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:11.358+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:11.407+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:11.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:19:11.427+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:11.427+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:19:11.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.256 seconds
+[2025-04-17T16:19:41.828+0000] {processor.py:186} INFO - Started process (PID=30176) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:41.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:19:41.830+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:41.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:41.916+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:19:41.944+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:41.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:19:41.967+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:19:41.967+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:19:41.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.166 seconds
+[2025-04-17T16:20:12.583+0000] {processor.py:186} INFO - Started process (PID=30240) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:12.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:20:12.588+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:12.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:12.739+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:12.771+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:12.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:20:12.798+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:12.797+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:20:12.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.257 seconds
+[2025-04-17T16:20:43.257+0000] {processor.py:186} INFO - Started process (PID=30310) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:43.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:20:43.259+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:43.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:43.382+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:20:43.423+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:43.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:20:43.444+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:20:43.443+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:20:43.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.232 seconds
+[2025-04-17T16:21:13.700+0000] {processor.py:186} INFO - Started process (PID=30374) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:13.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:21:13.704+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:13.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:13.852+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:13.889+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:13.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:21:13.918+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:13.918+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:21:13.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.275 seconds
+[2025-04-17T16:21:44.098+0000] {processor.py:186} INFO - Started process (PID=30438) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:44.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:21:44.101+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:44.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:44.221+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:21:44.246+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:44.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:21:44.262+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:21:44.262+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:21:44.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.203 seconds
+[2025-04-17T16:22:14.489+0000] {processor.py:186} INFO - Started process (PID=30503) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:14.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:22:14.493+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:14.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:14.642+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:14.678+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:14.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:22:14.705+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:14.704+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:22:14.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.259 seconds
+[2025-04-17T16:22:45.414+0000] {processor.py:186} INFO - Started process (PID=30566) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:45.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:22:45.422+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:45.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:45.644+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:22:45.702+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:45.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:22:45.747+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:22:45.746+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:22:45.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.404 seconds
+[2025-04-17T16:23:15.975+0000] {processor.py:186} INFO - Started process (PID=30630) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:15.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:23:15.984+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:15.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:16.172+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:16.210+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:16.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:23:16.232+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:16.232+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:23:16.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.310 seconds
+[2025-04-17T16:23:46.528+0000] {processor.py:186} INFO - Started process (PID=30695) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:46.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:23:46.533+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:46.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:46.787+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:23:46.847+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:46.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:23:46.892+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:23:46.891+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:23:46.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.473 seconds
+[2025-04-17T16:24:17.153+0000] {processor.py:186} INFO - Started process (PID=30760) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:17.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:24:17.160+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:17.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:17.311+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:17.384+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:17.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:24:17.421+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:17.420+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:24:17.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.345 seconds
+[2025-04-17T16:24:47.574+0000] {processor.py:186} INFO - Started process (PID=30823) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:47.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:24:47.577+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:47.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:47.669+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:24:47.693+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:47.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:24:47.710+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:24:47.709+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:24:47.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.165 seconds
+[2025-04-17T16:25:18.155+0000] {processor.py:186} INFO - Started process (PID=30884) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:18.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:25:18.167+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:18.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:18.571+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:18.622+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:18.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:25:18.674+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:18.673+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:25:18.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.610 seconds
+[2025-04-17T16:25:49.642+0000] {processor.py:186} INFO - Started process (PID=30949) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:49.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:25:49.645+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:49.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:49.762+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:25:49.789+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:49.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:25:49.812+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:25:49.812+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:25:49.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.210 seconds
+[2025-04-17T16:26:20.059+0000] {processor.py:186} INFO - Started process (PID=31014) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:20.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:26:20.062+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:20.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:20.183+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:20.227+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:20.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:26:20.253+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:20.252+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:26:20.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.231 seconds
+[2025-04-17T16:26:50.620+0000] {processor.py:186} INFO - Started process (PID=31076) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:50.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:26:50.628+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:50.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:50.790+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:26:50.823+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:50.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:26:50.843+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:26:50.842+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:26:50.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.266 seconds
+[2025-04-17T16:27:21.037+0000] {processor.py:186} INFO - Started process (PID=31141) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:21.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:27:21.043+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:21.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:21.213+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:21.242+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:21.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:27:21.264+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:21.263+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:27:21.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.270 seconds
+[2025-04-17T16:27:51.625+0000] {processor.py:186} INFO - Started process (PID=31207) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:51.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:27:51.628+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:51.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:51.828+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:27:51.866+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:51.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:27:51.903+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:27:51.902+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:27:51.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.359 seconds
+[2025-04-17T16:28:22.429+0000] {processor.py:186} INFO - Started process (PID=31269) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:28:22.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:28:22.437+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:28:22.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:28:22.590+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:28:22.628+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:28:22.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:28:22.656+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:28:22.655+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:28:22.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.275 seconds
+[2025-04-17T16:29:02.203+0000] {processor.py:186} INFO - Started process (PID=31310) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:02.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:29:02.209+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:02.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:03.244+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:03.435+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:03.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:29:03.601+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:03.600+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:29:03.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 1.525 seconds
+[2025-04-17T16:29:34.348+0000] {processor.py:186} INFO - Started process (PID=31375) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:34.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:29:34.356+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:34.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:34.563+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:29:34.604+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:34.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:29:34.655+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:29:34.654+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:29:34.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.392 seconds
+[2025-04-17T16:30:44.932+0000] {processor.py:186} INFO - Started process (PID=31428) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:30:44.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:30:44.991+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:30:44.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:30:47.687+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:30:47.989+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:30:47.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:30:48.131+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:30:48.131+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:30:48.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 3.313 seconds
+[2025-04-17T16:31:44.138+0000] {processor.py:186} INFO - Started process (PID=31496) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:31:44.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:31:44.145+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:31:44.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:31:44.355+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:31:44.416+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:31:44.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:31:44.469+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:31:44.469+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:31:44.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.407 seconds
+[2025-04-17T16:32:15.150+0000] {processor.py:186} INFO - Started process (PID=31560) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:15.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:32:15.156+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:15.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:15.304+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:15.337+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:15.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:32:15.370+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:15.370+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:32:15.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.277 seconds
+[2025-04-17T16:32:45.836+0000] {processor.py:186} INFO - Started process (PID=31620) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:45.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:32:45.839+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:45.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:45.943+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:32:45.976+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:45.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:32:46.006+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:32:46.005+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:32:46.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.206 seconds
+[2025-04-17T16:33:18.990+0000] {processor.py:186} INFO - Started process (PID=31684) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:18.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:33:19.001+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:18.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:19.275+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:19.323+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:19.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:33:19.352+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:19.351+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:33:19.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.438 seconds
+[2025-04-17T16:33:50.914+0000] {processor.py:186} INFO - Started process (PID=31747) to work on /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:50.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_property_maintenance_data.py for tasks to queue
+[2025-04-17T16:33:50.925+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:50.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:51.191+0000] {processor.py:925} INFO - DAG(s) 'load_property_maintenance_data' retrieved from /opt/airflow/dags/load_property_maintenance_data.py
+[2025-04-17T16:33:51.248+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:51.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-17T16:33:51.277+0000] {logging_mixin.py:190} INFO - [2025-04-17T16:33:51.276+0000] {dag.py:4180} INFO - Setting next_dagrun for load_property_maintenance_data to None, run_after=None
+[2025-04-17T16:33:51.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_property_maintenance_data.py took 0.461 seconds
