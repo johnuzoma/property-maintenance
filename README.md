@@ -43,3 +43,5 @@ Want to reset Airflow state? Delete the volumes:
 `docker-compose down -v`
 
 Rebuild after editing Dockerfile:
+
+`docker-compose build --no-cache`
