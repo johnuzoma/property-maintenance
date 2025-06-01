@@ -1,3 +1,14 @@
+## Overview
+Designed and implemented a fully automated data pipeline and analytics solution for property maintenance data using modern data stack tools including:
+
+- Apache Airflow - for orchestrating a Python-based workflow for loading CSV data from Google Cloud Storage (GCS) into Google BigQuery.
+
+- DBT - to build modular data transformations, generic and custom data tests to validate data integrity, and documentation for model transparency. Also scheduled daily model runs and tests using a DBT cloud job to ensure consistent data freshness and data quality in production.
+
+- Apache Superset - to integrate with BigQuery for delivering key business insights such as: top regions by property count, repair cost trends and properties over 5 years old with lower average repair costs.
+
+- Docker - to containerize all components for consistent local development and production deployment.
+
 ## Solution Architecture
 <img width="722" alt="image" src="https://github.com/user-attachments/assets/d9f261bc-04a9-4ce0-b5ed-58b130a6a68d" />
 
