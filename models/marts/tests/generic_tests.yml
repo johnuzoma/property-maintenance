@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_property
+    columns:
+      - name: property_id
+        tests:
+          - unique
+  - name: fact_property_maintenance
+    columns:
+      - name: property_id
+        tests:
+          - relationships:
+              to: ref('dim_customers')
+              field: property_id
+              

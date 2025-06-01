@@ -1,0 +1,27 @@
+version: 2
+models:
+  - name: stg_property_maintenance
+    columns:
+      - name: property_id
+        tests:
+          - not_null
+      - name: construction_year
+        tests:
+          - not_null
+      - name: repair_year
+        tests:
+          - not_null
+      - name: occupants
+        tests:
+          - not_null
+      - name: repair_count
+        tests:
+          - not_null
+      - name: repair_cost
+        tests:
+          - not_null
+      - name: occupants
+        tests:
+          - accepted_values:
+              values: [1,2,3,4,5]
+              quote: false
