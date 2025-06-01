@@ -1,5 +1,8 @@
 ## Solution Architecture
+<img width="722" alt="image" src="https://github.com/user-attachments/assets/d9f261bc-04a9-4ce0-b5ed-58b130a6a68d" />
 
+## Data Lineage
+<img width="832" alt="image" src="https://github.com/user-attachments/assets/85ed881a-7cc1-4909-8bb5-91ecea337a5a" />
 
 ## Apache Superset Dashboard
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/d40092c7-b67e-4376-97c5-8466e7bc2566" />
