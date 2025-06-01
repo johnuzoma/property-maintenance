@@ -1,0 +1,12 @@
+version: 2
+sources:
+  - name: property_data
+    database: practice-project-461104
+    schema: property_data
+    tables:
+      - name: property_maintenance
+        description: raw building maintenance data
+        columns:
+          - name: property_id
+            tests:
+              - not_null
