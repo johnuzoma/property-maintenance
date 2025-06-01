@@ -1,17 +1,18 @@
 version: 2
 models:
   - name: stg_property_maintenance
+    description: staging table which maps 1:1 with source table
     columns:
       - name: property_id
+        description: identifier code for property
         tests:
           - not_null
       - name: construction_year
+        description: year property was built
         tests:
           - not_null
       - name: repair_year
-        tests:
-          - not_null
-      - name: occupants
+        description: year property was repaired
         tests:
           - not_null
       - name: repair_count
@@ -21,6 +22,7 @@ models:
         tests:
           - not_null
       - name: occupants
+        description: no. of occupants cannot be zero or greater than 5
         tests:
           - accepted_values:
               values: [1,2,3,4,5]

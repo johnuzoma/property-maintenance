@@ -5,6 +5,7 @@ sources:
     schema: property_data
     tables:
       - name: property_maintenance
+        description: raw building maintenance data
         columns:
           - name: property_id
             tests:

@@ -2,13 +2,17 @@ version: 2
 
 models:
   - name: dim_property
+    description: dimension table
     columns:
       - name: property_id
+        description: primary key
         tests:
           - unique
   - name: fact_property_maintenance
+    description: fact table
     columns:
       - name: property_id
+        description: foreign key
         tests:
           - relationships:
               to: ref('dim_customers')
