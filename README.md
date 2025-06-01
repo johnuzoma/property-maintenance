@@ -18,7 +18,7 @@ Designed and implemented a fully automated data pipeline and analytics solution 
 ## Apache Superset Dashboard
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/d40092c7-b67e-4376-97c5-8466e7bc2566" />
 
-## Reproduce
+## Reproduction Steps
 To reproduce, clone this repository and run these commands in the root directory of the repo's folder (/property-maintenance)
 
 ### 1. Build Docker image
