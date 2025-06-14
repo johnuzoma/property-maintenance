@@ -10,7 +10,7 @@ Designed and implemented a fully automated data pipeline and analytics solution 
 - Docker - to containerize all components for consistent local development and production deployment.
 
 ## Solution Architecture
-<img width="722" alt="image" src="https://github.com/user-attachments/assets/d9f261bc-04a9-4ce0-b5ed-58b130a6a68d" />
+![final](https://github.com/user-attachments/assets/24d76555-431e-48a9-8131-88c47d234f9f)
 
 ## Data Lineage
 <img width="832" alt="image" src="https://github.com/user-attachments/assets/85ed881a-7cc1-4909-8bb5-91ecea337a5a" />
