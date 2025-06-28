@@ -4,4 +4,4 @@ WITH stg_pm AS (
 
 SELECT DISTINCT region_name
 FROM stg_pm
-WHERE LENGTH(region_name) > 1
+WHERE LENGTH(region_name) <> 1
